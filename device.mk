@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 # Init
-$(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_munch)
+$(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_psyche)
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -43,11 +43,11 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayDevice
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+$(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)

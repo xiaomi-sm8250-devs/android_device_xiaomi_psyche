@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),munch)
+ifeq ($(TARGET_DEVICE),psyche)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

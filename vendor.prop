@@ -34,7 +34,7 @@ vendor.audio.offload.buffer.size.kb=32
 vendor.audio_hal.period_multiplier=3
 
 # Audio hardware
-ro.hardware.audio.primary=munch
+ro.hardware.audio.primary=psyche
 
 # Display
 ro.surface_flinger.set_display_power_timer_ms=1000
