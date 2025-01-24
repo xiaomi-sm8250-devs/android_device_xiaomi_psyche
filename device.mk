@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# A/B
+TARGET_HAS_UDFPS := true
 TARGET_IS_VAB := true
 
 # Inherit from sm8250-common
